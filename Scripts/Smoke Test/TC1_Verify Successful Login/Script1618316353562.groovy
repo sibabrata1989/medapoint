@@ -25,8 +25,6 @@ WebUI.comment('Given that the user has the valid login information')
 
 WebUI.openBrowser(GlobalVariable.G_adSiteURL)
 
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
-
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)

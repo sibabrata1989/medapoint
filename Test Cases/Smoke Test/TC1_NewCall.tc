@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_NewCall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ba39a59-00bd-4c9d-8eb1-28a7d192785c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>39b454ae-95ad-421f-95f0-1b84898ae608</id>
+      <masked>false</masked>
+      <name>patient</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>2b3a690e-016b-4dc2-9daa-a970fe34d570</id>
+      <masked>false</masked>
+      <name>serviceRequested</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>68744764-813f-49ac-bb18-f010e51e442f</id>
+      <masked>false</masked>
+      <name>dispatchComplaint</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>79d4b42e-f34f-40a8-a38d-33d679da1355</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+</TestCaseEntity>

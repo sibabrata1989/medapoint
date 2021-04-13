@@ -1,0 +1,32 @@
+1
+00:00:00,748 --> 00:00:00,750
+1. openBrowser(G_adSiteURL)
+
+2
+00:00:18,471 --> 00:00:18,473
+5. delay(1)
+
+3
+00:00:19,532 --> 00:00:19,533
+9. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+4
+00:00:20,338 --> 00:00:20,340
+13. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+5
+00:00:21,126 --> 00:00:21,127
+17. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+6
+00:00:21,954 --> 00:00:21,956
+21. click(findTestObject("Page_Login/btn_Login"))
+
+7
+00:00:28,139 --> 00:00:28,142
+25. delay(1)
+
+8
+00:00:29,154 --> 00:00:29,156
+29. verifyElementText(findTestObject("Page_Login/lbl_HomePageTitle"), headerTitle)
+

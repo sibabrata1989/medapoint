@@ -1,0 +1,16 @@
+1
+00:00:00,469 --> 00:00:00,470
+1. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call"))
+
+2
+00:00:06,941 --> 00:00:06,942
+5. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input"), "ALMAGUER, AARON")
+
+3
+00:00:08,295 --> 00:00:08,296
+9. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information_UseScenePati_36c98b"))
+
+4
+00:00:08,804 --> 00:00:08,806
+13. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information_UseDe_3d76a1"))
+

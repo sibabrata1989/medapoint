@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Test Suite,Chrome 89.0.4389.114,,,2021-04-13 18:21:55,2021-04-13 18:22:42,47.276s,FAILED
+,,,,,,,
+Test Cases/Common Test Cases/Login,Chrome 89.0.4389.114,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2021-04-13 18:21:55,2021-04-13 18:22:29,33.833s,FAILED
+openBrowser(G_adSiteURL),Chrome 89.0.4389.114,,,2021-04-13 18:21:57,2021-04-13 18:22:15,17.723s,PASSED
+delay(1),Chrome 89.0.4389.114,,,2021-04-13 18:22:15,2021-04-13 18:22:16,1.060s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 89.0.4389.114,,,2021-04-13 18:22:16,2021-04-13 18:22:17,0.806s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Chrome 89.0.4389.114,,,2021-04-13 18:22:17,2021-04-13 18:22:18,0.787s,PASSED
+"setText(findTestObject(""Page_Login/txt_Organization""), Organization)",Chrome 89.0.4389.114,,,2021-04-13 18:22:18,2021-04-13 18:22:19,0.829s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 89.0.4389.114,,,2021-04-13 18:22:19,2021-04-13 18:22:25,6.183s,PASSED
+delay(1),Chrome 89.0.4389.114,,,2021-04-13 18:22:25,2021-04-13 18:22:26,1.014s,PASSED
+"verifyElementText(findTestObject(""Page_Login/lbl_HomePageTitle""), headerTitle)",Chrome 89.0.4389.114,,,2021-04-13 18:22:26,2021-04-13 18:22:27,1.298s,FAILED
+Video,Chrome 89.0.4389.114,,,2021-04-13 18:22:29,2021-04-13 18:22:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/TC1_NewCall,Chrome 89.0.4389.114,,,2021-04-13 18:22:29,2021-04-13 18:22:42,12.784s,FAILED
+"click(findTestObject(""Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call""))",Chrome 89.0.4389.114,,,2021-04-13 18:22:30,2021-04-13 18:22:36,6.472s,PASSED
+"setText(findTestObject(""Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input""), ""ALMAGUER, AARON"")",Chrome 89.0.4389.114,,,2021-04-13 18:22:36,2021-04-13 18:22:38,1.353s,PASSED
+"click(findTestObject(""Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information_UseScenePati_36c98b""))",Chrome 89.0.4389.114,,,2021-04-13 18:22:38,2021-04-13 18:22:38,0.508s,PASSED
+"click(findTestObject(""Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information_UseDe_3d76a1""))",Chrome 89.0.4389.114,,,2021-04-13 18:22:38,2021-04-13 18:22:40,1.892s,FAILED
+Video,Chrome 89.0.4389.114,,,2021-04-13 18:22:42,2021-04-13 18:22:42,0.002s,PASSED

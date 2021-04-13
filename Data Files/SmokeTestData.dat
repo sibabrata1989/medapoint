@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>LoginTestData</name>
+   <name>SmokeTestData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a1f3c59a-3582-4d65-ab83-95ba0372544e</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>AutoTest Aaron00%23%23 MP001 AdvanceDispatch%E2%84%A2+%3A+Command+Form</data>
+   <data>AutoTest Aaron00%23%23 MP001 AdvanceDispatch%E2%84%A2+%3A+Command+Form ALMAGUER%2C+AARON 911+Response+%28Scene%29 Whiskey Abdominal+Pain%2FProblems</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>userName</name>
@@ -27,6 +27,26 @@
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>headerTitle</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>patient</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>serviceRequested</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>unit</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>dispatchComplaint</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

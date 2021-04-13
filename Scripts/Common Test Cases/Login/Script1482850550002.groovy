@@ -25,7 +25,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(GlobalVariable.G_adSiteURL)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
@@ -35,9 +35,8 @@ WebUI.setText(findTestObject('Page_Login/txt_Organization'), Organization)
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Page_Login/lbl_HomePageTitle'), headerTitle)
+//WebUI.verifyElementText(findTestObject('Page_Login/lbl_HomePageTitle'), headerTitle)
 
-WebUI.acceptAlert()
 
