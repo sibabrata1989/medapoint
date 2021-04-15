@@ -1,0 +1,116 @@
+1
+00:00:00,136 --> 00:00:00,136
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,218 --> 00:00:00,218
+1. openBrowser(G_adSiteURL)
+
+3
+00:00:10,883 --> 00:00:10,884
+5. maximizeWindow()
+
+4
+00:00:11,157 --> 00:00:11,158
+9. delay(2)
+
+5
+00:00:13,162 --> 00:00:13,163
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:13,440 --> 00:00:13,440
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:13,722 --> 00:00:13,722
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:14,186 --> 00:00:14,186
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:19,924 --> 00:00:19,925
+29. delay(2)
+
+10
+00:00:21,935 --> 00:00:21,935
+5. delay(1)
+
+11
+00:00:22,939 --> 00:00:22,939
+9. click(findTestObject("Page_AdvanceDispatch  Command Form/linkCommand Form"))
+
+12
+00:01:10,557 --> 00:01:10,558
+13. delay(2)
+
+13
+00:01:12,564 --> 00:01:12,565
+17. click(findTestObject("Page_AdvanceDispatch  Command Form/i-expandTrip", ["patient":patient]))
+
+14
+00:01:13,982 --> 00:01:13,982
+21. delay(1)
+
+15
+00:01:14,988 --> 00:01:14,988
+25. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection0ActualTime"))
+
+16
+00:01:15,460 --> 00:01:15,460
+29. delay(2)
+
+17
+00:01:17,465 --> 00:01:17,465
+33. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection1ActualTime"))
+
+18
+00:01:17,974 --> 00:01:17,974
+37. delay(2)
+
+19
+00:01:19,979 --> 00:01:19,979
+41. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Unit Left Scene_TripEventCollection2ActualTime"))
+
+20
+00:01:20,453 --> 00:01:20,460
+45. delay(2)
+
+21
+00:01:22,465 --> 00:01:22,465
+49. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection3ActualTime"))
+
+22
+00:01:22,940 --> 00:01:22,941
+53. delay(2)
+
+23
+00:01:24,945 --> 00:01:24,945
+57. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection4ActualTime"))
+
+24
+00:01:25,414 --> 00:01:25,414
+61. delay(2)
+
+25
+00:01:27,418 --> 00:01:27,418
+65. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _PreStartOdoMeterReading"), STOP_ON_FAILURE)
+
+26
+00:01:27,905 --> 00:01:27,906
+69. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _StartOdoMeterReading"), STOP_ON_FAILURE)
+
+27
+00:01:29,006 --> 00:01:29,006
+73. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _EndOdoMeterReading"), STOP_ON_FAILURE)
+
+28
+00:01:29,788 --> 00:01:29,788
+77. click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _PostEndOdoMeterReading"), STOP_ON_FAILURE)
+
+29
+00:01:30,593 --> 00:01:30,593
+81. click(findTestObject("Page_AdvanceDispatch  Command Form/button_Complete Trip"))
+

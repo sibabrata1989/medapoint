@@ -1,0 +1,32 @@
+1
+00:00:00,171 --> 00:00:00,172
+1. openBrowser(G_adSiteURL)
+
+2
+00:00:10,375 --> 00:00:10,376
+5. maximizeWindow()
+
+3
+00:00:10,671 --> 00:00:10,671
+9. delay(2)
+
+4
+00:00:12,699 --> 00:00:12,700
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+5
+00:00:13,007 --> 00:00:13,007
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+6
+00:00:13,286 --> 00:00:13,288
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+7
+00:00:13,757 --> 00:00:13,758
+25. click(findTestObject("Page_Login/btn_Login"))
+
+8
+00:00:18,821 --> 00:00:18,822
+29. delay(2)
+

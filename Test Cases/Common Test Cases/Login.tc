@@ -13,28 +13,28 @@ Expected result:
    <comment></comment>
    <testCaseGuid>dc59940a-fb78-4da3-82c6-7ff4bffcfd97</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('LoginTestData').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('SmokeTestData').getValue(2, 1)</defaultValue>
       <description></description>
       <id>75fa3d79-7e92-4d55-b359-f7c9493ea288</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('LoginTestData').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('SmokeTestData').getValue(1, 1)</defaultValue>
       <description></description>
       <id>19fe967b-1564-4705-aff2-848d45b84489</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('LoginTestData').getValue(3, 1)</defaultValue>
+      <defaultValue>findTestData('SmokeTestData').getValue(3, 1)</defaultValue>
       <description></description>
       <id>90570760-e0f3-498e-bedd-904b0647c1ff</id>
       <masked>false</masked>
       <name>Organization</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('LoginTestData').getValue(4, 1)</defaultValue>
+      <defaultValue>findTestData('SmokeTestData').getValue(4, 1)</defaultValue>
       <description></description>
       <id>e2f926c9-de2f-4320-91db-6903edc2ad6e</id>
       <masked>false</masked>

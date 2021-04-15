@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>387d6621-8c65-4abb-82f7-3455da7c702e</testSuiteGuid>
    <testCaseLink>
       <guid>97643d81-5686-4d6e-a5e5-ba14e91234b3</guid>
@@ -69,6 +68,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>68744764-813f-49ac-bb18-f010e51e442f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ab31744-6789-4527-93c1-b75b2c6a4e54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/TC3_CompleteExistingTrip</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a43701d3-94d9-42c8-a8e1-8a90a881235f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,52 @@
+1
+00:00:00,128 --> 00:00:00,129
+1. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call"))
+
+2
+00:00:04,182 --> 00:00:04,183
+5. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input"), patient)
+
+3
+00:00:05,076 --> 00:00:05,077
+9. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_patientByName", ["patient":patient]))
+
+4
+00:00:08,290 --> 00:00:08,291
+13. click(findTestObject("Page_AdvanceDispatch  Call Taking/input_ScenePick up Information"))
+
+5
+00:00:09,174 --> 00:00:09,175
+17. delay(1)
+
+6
+00:00:10,179 --> 00:00:10,180
+21. click(findTestObject("Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information"))
+
+7
+00:00:10,967 --> 00:00:10,968
+25. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"), serviceRequested)
+
+8
+00:00:11,265 --> 00:00:11,266
+29. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"))
+
+9
+00:00:12,153 --> 00:00:12,154
+33. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input"), unit)
+
+10
+00:00:12,456 --> 00:00:12,457
+37. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_UnitByName", ["unit":unit]))
+
+11
+00:00:13,463 --> 00:00:13,464
+41. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input"), dispatchComplaint)
+
+12
+00:00:13,870 --> 00:00:13,871
+45. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName", ["complaint":dispatchComplaint]))
+
+13
+00:00:14,760 --> 00:00:14,760
+49. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish"))
+

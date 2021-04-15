@@ -20,10 +20,11 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(GlobalVariable.G_adSiteURL)
+
+WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
@@ -36,7 +37,4 @@ WebUI.setText(findTestObject('Page_Login/txt_Organization'), Organization)
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.delay(2)
-
-//WebUI.verifyElementText(findTestObject('Page_Login/lbl_HomePageTitle'), headerTitle)
-
 

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test Suite" time="136.714" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke Test Suite" tests="3" failures="0" errors="0" time="136.714" timestamp="2021-04-15 20:51:01" hostname="SSwain5 - SLB-332V0X2.DIR.slb.com" id="Test Suites/Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054"/>
+         <property name="logFiles" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_1.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_2.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_3.avi"/>
+         <property name="hostName" value="SSwain5 - SLB-332V0X2.DIR.slb.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 87.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="a23f13af-7f02-4b20-a080-8ea4a0713b4d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test Cases/Login" time="23.287" classname="Test Cases/Common Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2021-04-15 20:51:01 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-04-15 20:51:02 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-04-15 20:51:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-15 20:51:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-04-15 20:51:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-04-15 20:51:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-15 20:51:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-15 20:51:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:51:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-04-15 20:51:15 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-04-15 20:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Aaron00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-04-15 20:51:15 - [MESSAGE][PASSED] - Text 'Aaron00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-04-15 20:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-04-15 20:51:15 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-04-15 20:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-04-15 20:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-04-15 20:51:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:51:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:51:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Common Test Cases/Login' .
+
+2021-04-15 20:51:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Common Test Cases/Login' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC1_NewCall" time="17.533" classname="Test Cases/Smoke Test/TC1_NewCall" status="PASSED">
+         <system-out><![CDATA[2021-04-15 20:51:25 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC1_NewCall: Test Cases/Smoke Test/TC1_NewCall
+
+2021-04-15 20:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call' is clicked on
+
+2021-04-15 20:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call' is clicked on
+
+2021-04-15 20:51:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input"), patient): Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input'
+
+2021-04-15 20:51:30 - [MESSAGE][PASSED] - Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input'
+
+2021-04-15 20:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_patientByName", ["patient":patient])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_patientByName' is clicked on
+
+2021-04-15 20:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_patientByName' is clicked on
+
+2021-04-15 20:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/input_ScenePick up Information")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information' is clicked on
+
+2021-04-15 20:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information' is clicked on
+
+2021-04-15 20:51:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-15 20:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-15 20:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information' is clicked on
+
+2021-04-15 20:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information' is clicked on
+
+2021-04-15 20:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"), serviceRequested): Text '911 Response (Scene)' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input'
+
+2021-04-15 20:51:36 - [MESSAGE][PASSED] - Text '911 Response (Scene)' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input'
+
+2021-04-15 20:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input' is clicked on
+
+2021-04-15 20:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input' is clicked on
+
+2021-04-15 20:51:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input"), unit): Text 'Whiskey' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input'
+
+2021-04-15 20:51:37 - [MESSAGE][PASSED] - Text 'Whiskey' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input'
+
+2021-04-15 20:51:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_UnitByName", ["unit":unit])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_UnitByName' is clicked on
+
+2021-04-15 20:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_UnitByName' is clicked on
+
+2021-04-15 20:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input"), dispatchComplaint): Text 'Abdominal Pain/Problems' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input'
+
+2021-04-15 20:51:39 - [MESSAGE][PASSED] - Text 'Abdominal Pain/Problems' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input'
+
+2021-04-15 20:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName", ["complaint":dispatchComplaint])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName' is clicked on
+
+2021-04-15 20:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName' is clicked on
+
+2021-04-15 20:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish' is clicked on
+
+2021-04-15 20:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish' is clicked on
+
+2021-04-15 20:51:42 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC1_NewCall' .
+
+2021-04-15 20:51:42 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC1_NewCall' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_2.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC3_CompleteExistingTrip" time="94.094" classname="Test Cases/Smoke Test/TC3_CompleteExistingTrip" status="PASSED">
+         <system-out><![CDATA[2021-04-15 20:51:42 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC3_CompleteExistingTrip: Test Cases/Smoke Test/TC3_CompleteExistingTrip
+
+2021-04-15 20:51:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-04-15 20:51:42 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-04-15 20:51:42 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-04-15 20:51:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-04-15 20:51:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-04-15 20:51:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-04-15 20:51:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-15 20:51:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-15 20:51:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:51:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:51:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-04-15 20:51:56 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-04-15 20:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Aaron00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-04-15 20:51:56 - [MESSAGE][PASSED] - Text 'Aaron00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-04-15 20:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-04-15 20:51:56 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-04-15 20:51:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-04-15 20:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-04-15 20:52:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:52:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:52:04 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2021-04-15 20:52:04 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2021-04-15 20:52:04 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2021-04-15 20:52:04 - [MESSAGE][INFO] - ===============================================================
+
+2021-04-15 20:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-04-15 20:52:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-15 20:52:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-15 20:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/linkCommand Form")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is clicked on
+
+2021-04-15 20:52:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id="dispatchMenu_mn_active"]/a[text()='Command Form']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-04-15 20:52:48 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2021-04-15 20:52:48 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//li[@id='dispatchMenu_mn_active']/a'.
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//a[contains(text(),'Command Form')]'.
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_link.png
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Schedule'])[1]/following::a[1]'.
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_neighbor_0.png
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Trip Search'])[1]/following::a[2]'.
+
+2021-04-15 20:52:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_neighbor_1.png
+
+2021-04-15 20:52:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Dispatch'])[1]/preceding::a[1]'.
+
+2021-04-15 20:52:50 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_neighbor_2.png
+
+2021-04-15 20:52:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Manual Paging'])[1]/preceding::a[1]'.
+
+2021-04-15 20:52:50 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_neighbor_3.png
+
+2021-04-15 20:52:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='Command Form']/parent::*'.
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_neighbor_4.png
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//a[contains(@href, '/Dispatcher/CommandForm/Index')]'.
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_href.png
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//li[9]/a'.
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form_position.png
+
+2021-04-15 20:52:51 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\SSwain5\Documents\Others\medapoint\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2021-04-15 20:52:51 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/SSwain5/Documents/Others/medapoint/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//a[contains(text(),'Command Form')]'.
+
+2021-04-15 20:52:51 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2021-04-15 20:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is clicked on
+
+2021-04-15 20:52:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:52:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/i-expandTrip", ["patient":patient])): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' is clicked on
+
+2021-04-15 20:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' is clicked on
+
+2021-04-15 20:52:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-15 20:52:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-15 20:52:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection0ActualTime")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection0ActualTime' is clicked on
+
+2021-04-15 20:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection0ActualTime' is clicked on
+
+2021-04-15 20:52:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:53:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection1ActualTime")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection1ActualTime' is clicked on
+
+2021-04-15 20:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection1ActualTime' is clicked on
+
+2021-04-15 20:53:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:53:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Unit Left Scene_TripEventCollection2ActualTime")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Unit Left Scene_TripEventCollection2ActualTime' is clicked on
+
+2021-04-15 20:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Unit Left Scene_TripEventCollection2ActualTime' is clicked on
+
+2021-04-15 20:53:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:53:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection3ActualTime")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection3ActualTime' is clicked on
+
+2021-04-15 20:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection3ActualTime' is clicked on
+
+2021-04-15 20:53:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:53:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection4ActualTime")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection4ActualTime' is clicked on
+
+2021-04-15 20:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection4ActualTime' is clicked on
+
+2021-04-15 20:53:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-15 20:53:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-15 20:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _PreStartOdoMeterReading"), STOP_ON_FAILURE): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _PreStartOdoMeterReading' is clicked on
+
+2021-04-15 20:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _PreStartOdoMeterReading' is clicked on
+
+2021-04-15 20:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _StartOdoMeterReading"), STOP_ON_FAILURE): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _StartOdoMeterReading' is clicked on
+
+2021-04-15 20:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _StartOdoMeterReading' is clicked on
+
+2021-04-15 20:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _EndOdoMeterReading"), STOP_ON_FAILURE): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _EndOdoMeterReading' is clicked on
+
+2021-04-15 20:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _EndOdoMeterReading' is clicked on
+
+2021-04-15 20:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/input_Mileage _PostEndOdoMeterReading"), STOP_ON_FAILURE): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _PostEndOdoMeterReading' is clicked on
+
+2021-04-15 20:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/input_Mileage _PostEndOdoMeterReading' is clicked on
+
+2021-04-15 20:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/button_Complete Trip")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/button_Complete Trip' is clicked on
+
+2021-04-15 20:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/button_Complete Trip' is clicked on
+
+2021-04-15 20:53:16 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC3_CompleteExistingTrip' .
+
+2021-04-15 20:53:16 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC3_CompleteExistingTrip' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210415_205054\\Smoke Test Suite\\20210415_205054/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-15 20:51:01 - [TEST_SUITE][PASSED] - Smoke Test Suite: Test Cases/Smoke Test/TC3_CompleteExistingTrip]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

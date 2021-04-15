@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_CompleteExistingTrip</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67abc0d8-5162-44ab-8f01-3fa9a700af58</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>a43701d3-94d9-42c8-a8e1-8a90a881235f</id>
+      <masked>false</masked>
+      <name>patient</name>
+   </variable>
+</TestCaseEntity>
