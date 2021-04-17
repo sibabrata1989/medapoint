@@ -11,36 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>387d6621-8c65-4abb-82f7-3455da7c702e</testSuiteGuid>
    <testCaseLink>
-      <guid>97643d81-5686-4d6e-a5e5-ba14e91234b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>90570760-e0f3-498e-bedd-904b0647c1ff</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e2f926c9-de2f-4320-91db-6903edc2ad6e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f9b8aa5c-e0d4-42a1-b351-8153d6923df4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -71,6 +41,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>6cd2dcda-6376-45a3-baa6-9ad717fb81f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/TC2_EmergencyCall</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2155059-0754-4eed-9da7-140fbd027ca2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4ab31744-6789-4527-93c1-b75b2c6a4e54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -80,6 +62,48 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a43701d3-94d9-42c8-a8e1-8a90a881235f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e751e28-8d98-409c-a7ce-cb0274f34bd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/TC4_UnitActivation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a59968d-bd67-4ed4-9b8d-cd09c0f0c3cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e280742d-d4f3-4655-a5e8-ea74839140f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d898863-3eb3-4295-a6ff-5098731c60ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd538945-58af-4df7-8518-f41df968edcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17c5755d-0bbe-4269-a53f-c9b54f81ebc9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37cf044d-5759-477c-9fdf-b36e007c76ff</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

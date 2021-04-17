@@ -8,7 +8,7 @@
    <dataFileGUID>a1f3c59a-3582-4d65-ab83-95ba0372544e</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>AutoTest Aaron00%23%23 MP001 AdvanceDispatch%E2%84%A2+%3A+Command+Form ALMAGUER%2C+AARON 911+Response+%28Scene%29 Whiskey Abdominal+Pain%2FProblems</data>
+   <data>AutoTest Aaron00%23%23 MP001 AdvanceDispatch%E2%84%A2+%3A+Command+Form ALMAGUER%2C+AARON 911+Response+%28Scene%29 Whiskey Abdominal+Pain%2FProblems 24+hr+test 201 143677 145397 162173 164398</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>userName</name>
@@ -47,6 +47,36 @@
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>dispatchComplaint</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>shiftInput</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>vehicleInput</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>crew1</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>crew2</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>12</columnIndex>
+      <name>crew3</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>13</columnIndex>
+      <name>crew4</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

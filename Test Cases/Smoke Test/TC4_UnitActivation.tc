@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_UnitActivation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef4c256d-7972-4747-841a-2583d761dbba</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>2a59968d-bd67-4ed4-9b8d-cd09c0f0c3cc</id>
+      <masked>false</masked>
+      <name>shiftInput</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>e280742d-d4f3-4655-a5e8-ea74839140f9</id>
+      <masked>false</masked>
+      <name>vehicleInput</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(11, 1)</defaultValue>
+      <description></description>
+      <id>7d898863-3eb3-4295-a6ff-5098731c60ea</id>
+      <masked>false</masked>
+      <name>crew1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(12, 1)</defaultValue>
+      <description></description>
+      <id>dd538945-58af-4df7-8518-f41df968edcd</id>
+      <masked>false</masked>
+      <name>crew2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(13, 1)</defaultValue>
+      <description></description>
+      <id>17c5755d-0bbe-4269-a53f-c9b54f81ebc9</id>
+      <masked>false</masked>
+      <name>crew3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(14, 1)</defaultValue>
+      <description></description>
+      <id>37cf044d-5759-477c-9fdf-b36e007c76ff</id>
+      <masked>false</masked>
+      <name>crew4</name>
+   </variable>
+</TestCaseEntity>

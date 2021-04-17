@@ -27,7 +27,10 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/i-expandTrip', [('patient') : patient]))
 
-//WebUI.delay(1)
+if (WebUI.verifyElementPresent(findTestObject('Page_AdvanceDispatch  Command Form/button_OK', 5)))
+{
+	WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'))
+}
 //WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/div_Please wait while content loads'))
 WebUI.delay(1)
 
@@ -60,4 +63,6 @@ WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/input_Mileage _En
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/input_Mileage _PostEndOdoMeterReading'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/button_Complete Trip'))
+
+WebUI.closeBrowser()
 

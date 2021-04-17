@@ -16,6 +16,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('Password') : findTestData('SmokeTestData').getValue(2, 1)
+        , ('Username') : findTestData('SmokeTestData').getValue(1, 1), ('Organization') : findTestData('SmokeTestData').getValue(3, 1)
+        , ('headerTitle') : findTestData('SmokeTestData').getValue(4, 1)], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call'))
 
 WebUI.setText(findTestObject('Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input'), 
@@ -44,4 +48,6 @@ WebUI.setText(findTestObject('Object Repository/Page_AdvanceDispatch  Call Takin
 WebUI.click(findTestObject('Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName', [('complaint') : dispatchComplaint]))
 
 WebUI.click(findTestObject('Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish'))
+
+WebUI.closeBrowser()
 

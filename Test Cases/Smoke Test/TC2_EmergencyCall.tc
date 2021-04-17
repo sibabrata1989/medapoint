@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_EmergencyCall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cdbe27c-394f-4cc6-a41c-0b204fbcc921</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>d2155059-0754-4eed-9da7-140fbd027ca2</id>
+      <masked>false</masked>
+      <name>patient</name>
+   </variable>
+</TestCaseEntity>
