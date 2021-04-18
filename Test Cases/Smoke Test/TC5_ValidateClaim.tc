@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_ValidateClaim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>367a6abe-5b44-4a14-834d-3df349bf7031</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(16, 1)</defaultValue>
+      <description></description>
+      <id>2336d5fc-4e86-4c15-857b-9b5e885ca727</id>
+      <masked>false</masked>
+      <name>claimNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(15, 1)</defaultValue>
+      <description></description>
+      <id>f91476d6-c3e9-4b0d-8ac9-8b9c7c60c101</id>
+      <masked>false</masked>
+      <name>payer</name>
+   </variable>
+</TestCaseEntity>

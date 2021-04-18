@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login</description>
+   <name>Login - claim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b12cc7a-5600-4efd-9cf9-622614c89c0d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>ada68e6e-4998-4791-95d1-82a9a0c63827</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1ffe0c7f-4eb0-4eeb-ae96-6bddd8dcec07</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>2a751c6c-55e6-45e1-94e8-e996b55cb1d4</id>
+      <masked>false</masked>
+      <name>Organization</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>62f12c8b-da0e-45b1-ad31-6c04636249b8</id>
+      <masked>false</masked>
+      <name>headerTitle</name>
+   </variable>
+</TestCaseEntity>
