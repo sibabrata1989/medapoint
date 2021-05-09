@@ -106,4 +106,22 @@
          <variableId>37cf044d-5759-477c-9fdf-b36e007c76ff</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c7e0745b-39d6-4024-bc92-64a548ba8716</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/TC5_ValidateClaim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2336d5fc-4e86-4c15-857b-9b5e885ca727</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f91476d6-c3e9-4b0d-8ac9-8b9c7c60c101</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

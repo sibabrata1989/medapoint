@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_AddNewPatient</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce677e92-0322-4c97-83ab-25e79389f2d0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>d1bcf099-85c6-4a26-b004-5bb3aeff3174</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(18, 1)</defaultValue>
+      <description></description>
+      <id>3d6c10e6-037d-4845-a6c9-6062f74bbca2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(19, 1)</defaultValue>
+      <description></description>
+      <id>85960eca-722b-4d35-88f2-802800257f0b</id>
+      <masked>false</masked>
+      <name>stateCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(20, 1)</defaultValue>
+      <description></description>
+      <id>5abbcc7f-f02f-473d-b4ba-c06b40a73dd9</id>
+      <masked>false</masked>
+      <name>DOB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(21, 1)</defaultValue>
+      <description></description>
+      <id>50b07a25-8e93-40f5-b712-3dfcad6372b2</id>
+      <masked>false</masked>
+      <name>SSN</name>
+   </variable>
+</TestCaseEntity>

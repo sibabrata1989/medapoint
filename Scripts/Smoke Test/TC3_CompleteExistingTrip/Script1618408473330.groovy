@@ -19,7 +19,7 @@ WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('Password') : find
         , ('Username') : findTestData('SmokeTestData').getValue(1, 1), ('Organization') : findTestData('SmokeTestData').getValue(
             3, 1), ('headerTitle') : findTestData('SmokeTestData').getValue(4, 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Page_AdvanceDispatch  Command Form/linkCommand Form'), 5)
 
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/linkCommand Form'))
 
@@ -27,9 +27,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/i-expandTrip', [('patient') : patient]))
 
-if (WebUI.verifyElementPresent(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'),5, FailureHandling.OPTIONAL))
-{
-	WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'))
+if (WebUI.verifyElementPresent(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'))
 }
 
 //WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/div_Please wait while content loads'))

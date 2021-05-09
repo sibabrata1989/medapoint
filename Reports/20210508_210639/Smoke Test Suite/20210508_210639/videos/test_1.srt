@@ -1,0 +1,8 @@
+1
+00:00:00,368 --> 00:00:00,370
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,869 --> 00:00:00,870
+1. openBrowser(G_adSiteURL)
+

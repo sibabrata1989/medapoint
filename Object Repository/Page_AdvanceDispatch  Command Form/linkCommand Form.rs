@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id=&quot;dispatchMenu_mn_active&quot;]/a[text()='Command Form']</value>
+         <value>//*[@href=&quot;/Dispatcher/CommandForm/Index&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

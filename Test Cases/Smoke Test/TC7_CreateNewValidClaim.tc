@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_CreateNewValidClaim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b55b5f7d-ecf6-412c-9ff1-1fa8f8cfbba9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('SmokeTestData').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>c03b29b5-76ed-43a9-baad-df2d0831f70e</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

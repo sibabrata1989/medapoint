@@ -1,0 +1,44 @@
+1
+00:00:00,183 --> 00:00:00,184
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,262 --> 00:00:00,263
+1. openBrowser(G_adSiteURL)
+
+3
+00:00:06,663 --> 00:00:06,664
+5. maximizeWindow()
+
+4
+00:00:06,804 --> 00:00:06,805
+9. delay(2)
+
+5
+00:00:08,810 --> 00:00:08,810
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:09,131 --> 00:00:09,132
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:09,476 --> 00:00:09,477
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:10,020 --> 00:00:10,020
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:11,580 --> 00:00:11,580
+29. delay(2)
+
+10
+00:00:13,587 --> 00:00:13,587
+5. delay(1)
+
+11
+00:00:14,592 --> 00:00:14,593
+9. click(findTestObject("Page_AdvanceDispatch  Command Form/linkCommand Form"))
+

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207241</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Smoke Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Smoke Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Smoke Test Suite</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207259</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = SSwain5 - SLB-332V0X2.DIR.slb.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">SSwain5 - SLB-332V0X2.DIR.slb.com</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207260</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207260</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.18</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.18</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207262</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207268</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207278</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207349</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207350</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207555</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Smoke Test/TC1_NewCall</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Smoke Test/TC1_NewCall</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Smoke Test/TC1_NewCall</property>
+  <property name="source">C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Test Cases\\Smoke Test\\TC1_NewCall.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207737</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) patient = ALMAGUER, AARON</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207749</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) serviceRequested = 911 Response (Scene)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207759</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) dispatchComplaint = Abdominal Pain/Problems</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:47</date>
+  <millis>1620488207776</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) unit = Whiskey</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208265</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Common Test Cases/Login\&amp;quot;), [\&amp;quot;Password\&amp;quot;:findTestData(\&amp;quot;SmokeTestData\&amp;quot;).getValue(2, 1), \&amp;quot;Username\&amp;quot;:findTestData(\&amp;quot;SmokeTestData\&amp;quot;).getValue(1, 1), \&amp;quot;Organization\&amp;quot;:findTestData(\&amp;quot;SmokeTestData\&amp;quot;).getValue(3, 1), ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208426</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Common Test Cases/Login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Common Test Cases/Login</property>
+  <property name="description">Common test case used to login. \nSteps:\n- Click on &apos;Book Appointment&apos; button to login\n- Input username and password\n- Click on &apos;Login&apos; button\n\nExpected result:\n&apos;Appointment&apos; section is displayed after successful login</property>
+  <property name="id">Test Cases/Common Test Cases/Login</property>
+  <property name="source">C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Test Cases\\Common Test Cases\\Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208436</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Password = Aaron00##</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208436</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Username = AutoTest</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208437</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Organization = MP001</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208438</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>headerTitle = AdvanceDispatch\u2122 : Command Form</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:48</date>
+  <millis>1620488208765</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(G_adSiteURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:49</date>
+  <millis>1620488209133</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:49</date>
+  <millis>1620488209174</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2021-05-08T21:06:51</date>
+  <millis>1620488211584</millis>
+  <sequence>56</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 3c132cbb01999f33270f6c8f64d05041</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">3c132cbb01999f33270f6c8f64d05041</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:51</date>
+  <millis>1620488211624</millis>
+  <sequence>57</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 90.0.4430.93</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 90.0.4430.93</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:51</date>
+  <millis>1620488211626</millis>
+  <sequence>58</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:51</date>
+  <millis>1620488211626</millis>
+  <sequence>59</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2021-05-08T21:06:51</date>
+  <millis>1620488211628</millis>
+  <sequence>60</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
