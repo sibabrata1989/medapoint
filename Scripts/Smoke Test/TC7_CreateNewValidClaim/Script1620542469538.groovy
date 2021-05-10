@@ -112,6 +112,11 @@ WebUI.click(findTestObject('CommonObjects/drpdwnSelectSearchValue', [('fieldId')
 
 WebUI.click(findTestObject('CommonObjects/btnGridUpdate'))
 
+WebUI.click(findTestObject('CommonObjects/chkboxInput', [('id') : 'COBCheckedBox']))
+
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'btnValidateSave']))
 
+WebUI.click(findTestObject('CommonObjects/btnYes'))
+
+WebUI.closeBrowser()
 
