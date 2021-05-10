@@ -72,7 +72,15 @@ WebUI.waitForPageLoad(5)
 
 WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'StartOdoMeterReading']), '1')
 
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('CommonObjects/txtInputField', [('name') : 'EndOdoMeterReading']))
+
 WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'EndOdoMeterReading']), '10')
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('CommonObjects/chkboxInput', [('id') : 'IsEmergency']))
 
 WebUI.click(findTestObject('CommonObjects/chkboxInput', [('id') : 'IsEmergency']))
 
@@ -90,28 +98,20 @@ WebUI.click(findTestObject('CommonObjects/btnPopUpClose'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'CreateICD9Code']))
 
-WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'DiagnosisCode_input']), 'fracture')
+WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'DiagnosisCode_input']), 'M48.42XA')
 
-WebUI.click(findTestObject('CommonObjects/btnField', [('fieldId') : 'DiagnosisCode_listbox']))
+WebUI.click(findTestObject('CommonObjects/drpdwnFirstValue', [('fieldId') : 'DiagnosisCode']))
 
-WebUI.click(findTestObject('CommonObjects/btnGridUpdate',[('index'),1]))
+WebUI.click(findTestObject('CommonObjects/btnGridUpdate'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'CreateNewProcedure']))
 
 WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'Procedure_input']), 'BLS')
 
-WebUI.click(findTestObject('CommonObjects/drpdwnSelectSearchValue', [('fieldId') : 'Procedure_listbox',('value'):'BLS NON-EMERGENCY TRANSPORT']))
+WebUI.click(findTestObject('CommonObjects/drpdwnSelectSearchValue', [('fieldId') : 'Procedure', ('value') : 'BLS NON-EMERGENCY TRANSPORT']))
 
-WebUI.click(findTestObject('CommonObjects/btnGridUpdate',[('index'),2]))
+WebUI.click(findTestObject('CommonObjects/btnGridUpdate'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'btnValidateSave']))
-
-
-
-
-
-
-
-
 
 

@@ -91,5 +91,5 @@ public class WebUICustomKeywords {
 		List<WebElement> element = WebUiCommonHelper.findWebElements(findTestObject('CommonObjects/drpdwnViewActionsList', [('name') : name]),10)
 		int size = element.size()
 		WebUI.click(findTestObject('CommonObjects/drpdwnViewAction',[('name') : name,('index'):size]))
-		}
 	}
+}

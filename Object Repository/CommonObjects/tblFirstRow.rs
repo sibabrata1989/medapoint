@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnGridUpdate</name>
+   <name>tblFirstRow</name>
    <tag></tag>
-   <elementGuidId>ed48dc97-cad3-4824-8e2d-9447650e6731</elementGuidId>
+   <elementGuidId>d2db51d6-fc63-45b6-a73f-47ae5bc7c7bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class,'k-grid-update')]</value>
+         <value>(//*[contains(@class,&quot;k-master-row&quot;)])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnGridUpdate</name>
+   <name>lblWindowTitle</name>
    <tag></tag>
-   <elementGuidId>ed48dc97-cad3-4824-8e2d-9447650e6731</elementGuidId>
+   <elementGuidId>6faac3fa-7a11-468b-8f13-ec5c4311e08a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class,'k-grid-update')]</value>
+         <value>//*[@id=&quot;errorbox_wnd_title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
