@@ -45,7 +45,7 @@ WebUI.click(findTestObject('CommonObjects/btnYes'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'address-resultbtn']))
 
-WebUI.verifyElementNotClickable(findTestObject('CommonObjects/btnField', [('id') : 'patientSave']),10)
+WebUI.verifyElementNotClickable(findTestObject('CommonObjects/btnField', [('id') : 'patientSave']),FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

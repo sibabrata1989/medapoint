@@ -1,0 +1,100 @@
+1
+00:00:00,342 --> 00:00:00,343
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,425 --> 00:00:00,425
+1. openBrowser(G_adSiteURL)
+
+3
+00:00:08,502 --> 00:00:08,503
+5. maximizeWindow()
+
+4
+00:00:08,681 --> 00:00:08,682
+9. delay(2)
+
+5
+00:00:10,688 --> 00:00:10,688
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:11,052 --> 00:00:11,053
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:11,435 --> 00:00:11,436
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:12,089 --> 00:00:12,090
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:17,375 --> 00:00:17,376
+29. delay(2)
+
+10
+00:00:19,385 --> 00:00:19,387
+5. delay(2)
+
+11
+00:00:21,398 --> 00:00:21,400
+9. mouseOver(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/span_Dispatch"))
+
+12
+00:00:21,945 --> 00:00:21,946
+13. click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/a_Unit Activation Matrix"))
+
+13
+00:00:25,937 --> 00:00:25,938
+17. delay(2)
+
+14
+00:00:27,945 --> 00:00:27,946
+21. unitBefore = getText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit"))
+
+15
+00:00:30,733 --> 00:00:30,734
+25. click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit"))
+
+16
+00:00:31,464 --> 00:00:31,466
+29. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedShift_input"), shiftInput)
+
+17
+00:00:34,840 --> 00:00:34,840
+33. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedVehicle_input"), vehicleInput)
+
+18
+00:00:35,999 --> 00:00:36,001
+37. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew1_input"), crew1)
+
+19
+00:00:37,122 --> 00:00:37,123
+41. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew2_input"), crew2)
+
+20
+00:00:38,260 --> 00:00:38,261
+45. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew3_input"), crew3)
+
+21
+00:00:39,442 --> 00:00:39,443
+49. setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew4_input"), crew4)
+
+22
+00:00:40,626 --> 00:00:40,627
+53. click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/btnSave"))
+
+23
+00:00:41,444 --> 00:00:41,445
+57. unitAfter = getText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit"))
+
+24
+00:00:44,424 --> 00:00:44,425
+61. assert !(unitBefore.equals(unitAfter))
+
+25
+00:00:44,434 --> 00:00:44,435
+65. closeBrowser()
+
