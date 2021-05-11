@@ -1,0 +1,224 @@
+1
+00:00:00,221 --> 00:00:00,222
+1. callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,298 --> 00:00:00,298
+1. openBrowser(G_acSiteURL)
+
+3
+00:00:05,958 --> 00:00:05,959
+5. maximizeWindow()
+
+4
+00:00:06,103 --> 00:00:06,103
+9. delay(2)
+
+5
+00:00:08,108 --> 00:00:08,108
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:08,447 --> 00:00:08,447
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:08,795 --> 00:00:08,796
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:09,342 --> 00:00:09,343
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:13,042 --> 00:00:13,042
+29. delay(2)
+
+10
+00:00:15,050 --> 00:00:15,050
+5. click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Patients"]))
+
+11
+00:00:16,931 --> 00:00:16,932
+9. setText(findTestObject("CommonObjects/txtInputField", ["name":"LastName"]), lastName)
+
+12
+00:00:17,466 --> 00:00:17,466
+13. click(findTestObject("CommonObjects/btnField", ["id":"search"]))
+
+13
+00:00:17,779 --> 00:00:17,780
+17. waitForPageLoad(5)
+
+14
+00:00:17,812 --> 00:00:17,812
+21. com.Common.WebUICustomKeywords.clickOnViewActionForLatestRecord(lastName)
+
+15
+00:00:27,564 --> 00:00:27,564
+25. click(findTestObject("CommonObjects/btnField", ["id":"aNew"]))
+
+16
+00:00:28,093 --> 00:00:28,094
+29. waitForPageLoad(5)
+
+17
+00:00:28,107 --> 00:00:28,108
+33. setText(findTestObject("CommonObjects/txtInputField", ["name":"PatientCareNumber"]), patientCare)
+
+18
+00:00:33,374 --> 00:00:33,375
+37. setText(findTestObject("CommonObjects/txtInputField", ["name":"IncidentNumber"]), incidentNumber)
+
+19
+00:00:33,844 --> 00:00:33,844
+41. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Response Mode to Scene", "SelectedResponseMode", responseModeToScene)
+
+20
+00:00:35,048 --> 00:00:35,049
+45. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("NEMSIS CMS Service Level", "SelectedServiceLevel", CMSserviceLevel)
+
+21
+00:00:36,350 --> 00:00:36,351
+49. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Type of Service", "SelectedServiceType", typeOfService)
+
+22
+00:00:38,041 --> 00:00:38,042
+53. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Incident/Patient Disposition", "SelectedDisposition", patientDisposition)
+
+23
+00:00:39,376 --> 00:00:39,376
+57. waitForPageLoad(5)
+
+24
+00:00:39,434 --> 00:00:39,434
+61. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Destination Reason", "SelectedTransportReason", destinationReason)
+
+25
+00:00:41,141 --> 00:00:41,142
+65. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Response Urgency", "SelectedResponseUrgency", reasonUrgency)
+
+26
+00:00:42,509 --> 00:00:42,509
+69. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Leg of Trip", "SelectedTripLeg", legOfTrip)
+
+27
+00:00:43,857 --> 00:00:43,857
+73. click(findTestObject("CommonObjects/chkboxInput", ["id":"UseScenePatientAddress"]))
+
+28
+00:00:44,330 --> 00:00:44,331
+77. click(findTestObject("CommonObjects/chkboxInput", ["id":"UseDestinationPatientAddress"]))
+
+29
+00:00:45,551 --> 00:00:45,552
+81. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Scene Type", "SelectedSceneType", sceneType)
+
+30
+00:00:47,190 --> 00:00:47,191
+85. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Destination Type", "SelectedDestinationType", destinationType)
+
+31
+00:00:48,964 --> 00:00:48,964
+89. waitForPageLoad(5)
+
+32
+00:00:49,017 --> 00:00:49,018
+93. setText(findTestObject("CommonObjects/txtInputField", ["name":"StartOdoMeterReading"]), "1")
+
+33
+00:00:49,656 --> 00:00:49,657
+97. waitForPageLoad(5)
+
+34
+00:00:49,673 --> 00:00:49,674
+101. click(findTestObject("CommonObjects/txtInputField", ["name":"EndOdoMeterReading"]))
+
+35
+00:00:50,773 --> 00:00:50,773
+105. setText(findTestObject("CommonObjects/txtInputField", ["name":"EndOdoMeterReading"]), "10")
+
+36
+00:00:51,508 --> 00:00:51,509
+109. waitForPageLoad(5)
+
+37
+00:00:51,522 --> 00:00:51,523
+113. click(findTestObject("CommonObjects/chkboxInput", ["id":"IsEmergency"]))
+
+38
+00:00:52,478 --> 00:00:52,478
+117. click(findTestObject("CommonObjects/chkboxInput", ["id":"IsEmergency"]))
+
+39
+00:00:54,164 --> 00:00:54,165
+121. click(findTestObject("CommonObjects/btnField", ["id":"tabstrip-procedure"]))
+
+40
+00:00:54,636 --> 00:00:54,637
+125. click(findTestObject("CommonObjects/btnField", ["id":"btnOpenInsurance"]))
+
+41
+00:00:56,828 --> 00:00:56,828
+129. waitForElementVisible(findTestObject("CommonObjects/btnField", ["id":"btnUseSelfPay"]), 5)
+
+42
+00:00:59,770 --> 00:00:59,771
+133. click(findTestObject("CommonObjects/btnField", ["id":"btnUseSelfPay"]))
+
+43
+00:01:00,107 --> 00:01:00,107
+137. click(findTestObject("CommonObjects/btnYes"))
+
+44
+00:01:02,202 --> 00:01:02,203
+141. click(findTestObject("CommonObjects/btnPopUpClose"))
+
+45
+00:01:03,078 --> 00:01:03,079
+145. click(findTestObject("CommonObjects/btnField", ["id":"CreateICD9Code"]))
+
+46
+00:01:03,751 --> 00:01:03,751
+149. setText(findTestObject("CommonObjects/txtInputField", ["name":"DiagnosisCode_input"]), diagonosisInput)
+
+47
+00:01:04,672 --> 00:01:04,672
+153. click(findTestObject("CommonObjects/drpdwnFirstValue", ["fieldId":"DiagnosisCode"]))
+
+48
+00:01:07,059 --> 00:01:07,060
+157. click(findTestObject("CommonObjects/btnGridUpdate"))
+
+49
+00:01:07,530 --> 00:01:07,531
+161. click(findTestObject("CommonObjects/btnField", ["id":"CreateNewProcedure"]))
+
+50
+00:01:08,846 --> 00:01:08,847
+165. setText(findTestObject("CommonObjects/txtInputField", ["name":"Procedure_input"]), procedureInput)
+
+51
+00:01:09,645 --> 00:01:09,646
+169. click(findTestObject("CommonObjects/drpdwnSelectSearchValue", ["fieldId":"Procedure", "value":procedureValue]))
+
+52
+00:01:11,002 --> 00:01:11,003
+173. click(findTestObject("CommonObjects/btnGridUpdate"))
+
+53
+00:01:12,788 --> 00:01:12,788
+177. click(findTestObject("CommonObjects/chkboxInput", ["id":"COBCheckedBox"]))
+
+54
+00:01:13,727 --> 00:01:13,727
+181. click(findTestObject("CommonObjects/btnField", ["id":"btnValidateSave"]))
+
+55
+00:01:14,136 --> 00:01:14,137
+185. click(findTestObject("CommonObjects/btnYes"))
+
+56
+00:01:28,426 --> 00:01:28,426
+189. closeBrowser()
+

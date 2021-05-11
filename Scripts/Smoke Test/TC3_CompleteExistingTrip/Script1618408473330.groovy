@@ -31,7 +31,6 @@ if (WebUI.verifyElementPresent(findTestObject('Page_AdvanceDispatch  Command For
     WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/button_OK'))
 }
 
-//WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/div_Please wait while content loads'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_AdvanceDispatch  Command Form/input_Mileage _TripEventCollection0ActualTime'))

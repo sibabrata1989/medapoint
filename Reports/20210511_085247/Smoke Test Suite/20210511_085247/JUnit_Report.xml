@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test Suite" time="507.715" tests="8" failures="1" errors="0">
+   <testsuite name="Smoke Test Suite" tests="8" failures="1" errors="0" time="507.715" timestamp="2021-05-11 08:53:00" hostname="SSwain5 - SLB-332V0X2.DIR.slb.com" id="Test Suites/Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247"/>
+         <property name="logFiles" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_1.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_2.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247\\1620703562318.png, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_3.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_4.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_5.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_6.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_7.avi, C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_8.avi"/>
+         <property name="hostName" value="SSwain5 - SLB-332V0X2.DIR.slb.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 90.0.4430.93"/>
+         <property name="hostAddress" value="192.168.1.18"/>
+         <property name="sessionId" value="2bc009fff2ac5c4770d5d586760c66a7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/TC1_NewCall" time="40.049" classname="Test Cases/Smoke Test/TC1_NewCall" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:53:00 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC1_NewCall: Test Cases/Smoke Test/TC1_NewCall
+
+2021-05-11 08:53:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:53:01 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-05-11 08:53:01 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:53:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:53:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-05-11 08:53:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:53:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:53:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:53:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:53:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:53:11 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:53:12 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:53:12 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:53:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:53:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:53:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call' is clicked on
+
+2021-05-11 08:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call' is clicked on
+
+2021-05-11 08:53:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input"), patient): Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input'
+
+2021-05-11 08:53:25 - [MESSAGE][PASSED] - Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input'
+
+2021-05-11 08:53:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_patientByName", ["patient":patient])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_patientByName' is clicked on
+
+2021-05-11 08:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_patientByName' is clicked on
+
+2021-05-11 08:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/input_ScenePick up Information")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information' is clicked on
+
+2021-05-11 08:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_ScenePick up Information' is clicked on
+
+2021-05-11 08:53:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-05-11 08:53:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-05-11 08:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information' is clicked on
+
+2021-05-11 08:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information' is clicked on
+
+2021-05-11 08:53:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"), serviceRequested): Text '911 Response (Scene)' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input'
+
+2021-05-11 08:53:33 - [MESSAGE][PASSED] - Text '911 Response (Scene)' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input'
+
+2021-05-11 08:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input' is clicked on
+
+2021-05-11 08:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input' is clicked on
+
+2021-05-11 08:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input"), unit): Text 'Whiskey' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input'
+
+2021-05-11 08:53:34 - [MESSAGE][PASSED] - Text 'Whiskey' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input'
+
+2021-05-11 08:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_UnitByName", ["unit":unit])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_UnitByName' is clicked on
+
+2021-05-11 08:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_UnitByName' is clicked on
+
+2021-05-11 08:53:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input"), dispatchComplaint): Text 'Abdominal Pain/Problems' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input'
+
+2021-05-11 08:53:35 - [MESSAGE][PASSED] - Text 'Abdominal Pain/Problems' is set on object 'Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input'
+
+2021-05-11 08:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName", ["complaint":dispatchComplaint])): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName' is clicked on
+
+2021-05-11 08:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName' is clicked on
+
+2021-05-11 08:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish")): Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish' is clicked on
+
+2021-05-11 08:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish' is clicked on
+
+2021-05-11 08:53:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 08:53:38 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 08:53:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC1_NewCall' .
+
+2021-05-11 08:53:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC1_NewCall' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC2_EmergencyCall" time="68.158" classname="Test Cases/Smoke Test/TC2_EmergencyCall" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:53:40 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC2_EmergencyCall: Test Cases/Smoke Test/TC2_EmergencyCall
+
+2021-05-11 08:53:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:53:41 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-05-11 08:53:41 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:53:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:53:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:53:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:53:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:53:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:53:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:53:49 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:53:50 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:53:50 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:53:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:53:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:53:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch  Command Form/span_Emergency Call Taking")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/span_Emergency Call Taking' is clicked on
+
+2021-05-11 08:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/span_Emergency Call Taking' is clicked on
+
+2021-05-11 08:54:00 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-05-11 08:54:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-05-11 08:54:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch/input_Caller Name_CallerName"), patient): Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch/input_Caller Name_CallerName'
+
+2021-05-11 08:54:04 - [MESSAGE][PASSED] - Text 'ALMAGUER, AARON' is set on object 'Object Repository/Page_AdvanceDispatch/input_Caller Name_CallerName'
+
+2021-05-11 08:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch/input_Call Back Number_CallbackNumber")): Object: 'Object Repository/Page_AdvanceDispatch/input_Call Back Number_CallbackNumber' is clicked on
+
+2021-05-11 08:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/input_Call Back Number_CallbackNumber' is clicked on
+
+2021-05-11 08:54:05 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText("CallbackNumber", "2169604444"): com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:54:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='2169604444'' successfully
+
+2021-05-11 08:54:05 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Dispatch Complaint_k-icon k-i-arrow-60-down")): Object: 'Object Repository/Page_AdvanceDispatch/span_Dispatch Complaint_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/span_Dispatch Complaint_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Abdominal PainProblems")): Object: 'Object Repository/Page_AdvanceDispatch/li_Abdominal PainProblems' is clicked on
+
+2021-05-11 08:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/li_Abdominal PainProblems' is clicked on
+
+2021-05-11 08:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Service Requested_k-icon k-i-arrow-60-down")): Object: 'Object Repository/Page_AdvanceDispatch/span_Service Requested_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/span_Service Requested_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/li_911 Response (Scene)")): Object: 'Object Repository/Page_AdvanceDispatch/li_911 Response (Scene)' is clicked on
+
+2021-05-11 08:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/li_911 Response (Scene)' is clicked on
+
+2021-05-11 08:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Dispatch Priority_k-select")): Object: 'Object Repository/Page_AdvanceDispatch/span_Dispatch Priority_k-select' is clicked on
+
+2021-05-11 08:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/span_Dispatch Priority_k-select' is clicked on
+
+2021-05-11 08:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Priority 2 (Emergent)")): Object: 'Object Repository/Page_AdvanceDispatch/li_Priority 2 (Emergent)' is clicked on
+
+2021-05-11 08:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/li_Priority 2 (Emergent)' is clicked on
+
+2021-05-11 08:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Transport Method_k-icon k-i-arrow-60-down")): Object: 'Object Repository/Page_AdvanceDispatch/span_Transport Method_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/span_Transport Method_k-icon k-i-arrow-60-down' is clicked on
+
+2021-05-11 08:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Ground-Ambulance")): Object: 'Object Repository/Page_AdvanceDispatch/li_Ground-Ambulance' is clicked on
+
+2021-05-11 08:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/li_Ground-Ambulance' is clicked on
+
+2021-05-11 08:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/input_Caller Ref _CallerReferenceNumber")): Object: 'Object Repository/Page_AdvanceDispatch/input_Caller Ref _CallerReferenceNumber' is clicked on
+
+2021-05-11 08:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/input_Caller Ref _CallerReferenceNumber' is clicked on
+
+2021-05-11 08:54:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_Street Address_SceneStreetAddress"), "1300 napoli valie"): Text '1300 napoli valie' is set on object 'Object Repository/Page_AdvanceDispatch/input_Street Address_SceneStreetAddress'
+
+2021-05-11 08:54:11 - [MESSAGE][PASSED] - Text '1300 napoli valie' is set on object 'Object Repository/Page_AdvanceDispatch/input_Street Address_SceneStreetAddress'
+
+2021-05-11 08:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_City_SceneCity"), "san antonio"): Text 'san antonio' is set on object 'Object Repository/Page_AdvanceDispatch/input_City_SceneCity'
+
+2021-05-11 08:54:11 - [MESSAGE][PASSED] - Text 'san antonio' is set on object 'Object Repository/Page_AdvanceDispatch/input_City_SceneCity'
+
+2021-05-11 08:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_State_SceneStateID_input"), "78253"): Text '78253' is set on object 'Object Repository/Page_AdvanceDispatch/input_State_SceneStateID_input'
+
+2021-05-11 08:54:12 - [MESSAGE][PASSED] - Text '78253' is set on object 'Object Repository/Page_AdvanceDispatch/input_State_SceneStateID_input'
+
+2021-05-11 08:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceDispatch/button_Publish And Continue")): Object: 'Object Repository/Page_AdvanceDispatch/button_Publish And Continue' is clicked on
+
+2021-05-11 08:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch/button_Publish And Continue' is clicked on
+
+2021-05-11 08:54:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_AdvanceDispatch/lblcallReferenceNumber"), 10): Object 'Object Repository/Page_AdvanceDispatch/lblcallReferenceNumber' is visible
+
+2021-05-11 08:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_AdvanceDispatch/lblcallReferenceNumber' is visible
+
+2021-05-11 08:54:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 08:54:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 08:54:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC2_EmergencyCall' .
+
+2021-05-11 08:54:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC2_EmergencyCall' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_2.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC3_CompleteExistingTrip" time="76.55" classname="Test Cases/Smoke Test/TC3_CompleteExistingTrip" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/TC3_CompleteExistingTrip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-05-11 08:54:48 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TC3_CompleteExistingTrip: Test Cases/Smoke Test/TC3_CompleteExistingTrip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-05-11 08:54:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:54:49 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-05-11 08:54:49 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:54:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:54:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:54:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:54:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:54:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:54:57 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:54:57 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:54:58 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:55:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:55:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:55:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:55:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_AdvanceDispatch  Command Form/linkCommand Form"), 5): Object 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is present
+
+2021-05-11 08:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is present
+
+2021-05-11 08:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch  Command Form/linkCommand Form")): Object: 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is clicked on
+
+2021-05-11 08:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch  Command Form/linkCommand Form' is clicked on
+
+2021-05-11 08:55:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:55:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:55:18 - [TEST_STEP][FAILED] - click(findTestObject("Page_AdvanceDispatch  Command Form/i-expandTrip", ["patient":patient])): Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1618408473330.run(Script1618408473330.groovy:28)
+	... 13 more
+)
+
+2021-05-11 08:56:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-05-11 08:56:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1618408473330.run(Script1618408473330.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247\\1620703562318.png]]
+
+2021-05-11 08:56:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC3_CompleteExistingTrip' .
+
+2021-05-11 08:56:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC3_CompleteExistingTrip' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[2021-05-11 08:54:48 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/TC3_CompleteExistingTrip: Test Cases/Smoke Test/TC3_CompleteExistingTrip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC4_UnitActivation" time="47.829" classname="Test Cases/Smoke Test/TC4_UnitActivation" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:56:05 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC4_UnitActivation: Test Cases/Smoke Test/TC4_UnitActivation
+
+2021-05-11 08:56:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:56:05 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2021-05-11 08:56:05 - [TEST_STEP][PASSED] - openBrowser(G_adSiteURL): Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:56:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-05-11 08:56:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:56:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://adstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:56:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:56:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:56:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:56:15 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:56:16 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:56:16 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:56:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:56:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:56:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:56:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2021-05-11 08:56:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:56:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:56:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/span_Dispatch")): Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/span_Dispatch' is hovered
+
+2021-05-11 08:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/span_Dispatch' is hovered
+
+2021-05-11 08:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/a_Unit Activation Matrix")): Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/a_Unit Activation Matrix' is clicked on
+
+2021-05-11 08:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/a_Unit Activation Matrix' is clicked on
+
+2021-05-11 08:56:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:56:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:56:31 - [TEST_STEP][PASSED] - unitBefore = getText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit")): Text of object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is: '420-BLS'
+
+2021-05-11 08:56:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is: '420-BLS'
+
+2021-05-11 08:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit")): Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is clicked on
+
+2021-05-11 08:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is clicked on
+
+2021-05-11 08:56:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedShift_input"), shiftInput): Text '24 hr test' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedShift_input'
+
+2021-05-11 08:56:40 - [MESSAGE][PASSED] - Text '24 hr test' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedShift_input'
+
+2021-05-11 08:56:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedVehicle_input"), vehicleInput): Text '201' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedVehicle_input'
+
+2021-05-11 08:56:41 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedVehicle_input'
+
+2021-05-11 08:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew1_input"), crew1): Text '143677' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew1_input'
+
+2021-05-11 08:56:42 - [MESSAGE][PASSED] - Text '143677' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew1_input'
+
+2021-05-11 08:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew2_input"), crew2): Text '145397' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew2_input'
+
+2021-05-11 08:56:43 - [MESSAGE][PASSED] - Text '145397' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew2_input'
+
+2021-05-11 08:56:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew3_input"), crew3): Text '162173' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew3_input'
+
+2021-05-11 08:56:44 - [MESSAGE][PASSED] - Text '162173' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew3_input'
+
+2021-05-11 08:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew4_input"), crew4): Text '164398' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew4_input'
+
+2021-05-11 08:56:45 - [MESSAGE][PASSED] - Text '164398' is set on object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/SelectedCrew4_input'
+
+2021-05-11 08:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/btnSave")): Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/btnSave' is clicked on
+
+2021-05-11 08:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/btnSave' is clicked on
+
+2021-05-11 08:56:46 - [TEST_STEP][PASSED] - unitAfter = getText(findTestObject("Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit")): Text of object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is: '440'
+
+2021-05-11 08:56:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AdvanceDispatch Unit Activation Matrix/link_firstInactiveUnit' is: '440'
+
+2021-05-11 08:56:49 - [TEST_STEP][PASSED] - assert !(unitBefore.equals(unitAfter)): null
+
+2021-05-11 08:56:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 08:56:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 08:56:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC4_UnitActivation' .
+
+2021-05-11 08:56:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC4_UnitActivation' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_4.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC5_ValidateClaim" time="65.797" classname="Test Cases/Smoke Test/TC5_ValidateClaim" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:56:53 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC5_ValidateClaim: Test Cases/Smoke Test/TC5_ValidateClaim
+
+2021-05-11 08:56:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:56:53 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login - claim: Test Cases/Common Test Cases/Login - claim
+
+2021-05-11 08:56:53 - [TEST_STEP][PASSED] - openBrowser(G_acSiteURL): Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:56:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:56:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:56:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:56:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:56:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:57:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:57:01 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:57:02 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:57:02 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:57:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:57:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:57:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Home Page/a_Claims")): Object: 'Object Repository/Page_AdvanceClaim  Home Page/a_Claims' is clicked on
+
+2021-05-11 08:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Home Page/a_Claims' is clicked on
+
+2021-05-11 08:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_AdvanceClaim  Command Form/input_Claim _ClaimNumber"), claimNumber): Text '13530' is set on object 'Object Repository/Page_AdvanceClaim  Command Form/input_Claim _ClaimNumber'
+
+2021-05-11 08:57:11 - [MESSAGE][PASSED] - Text '13530' is set on object 'Object Repository/Page_AdvanceClaim  Command Form/input_Claim _ClaimNumber'
+
+2021-05-11 08:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Command Form/button_Find")): Object: 'Object Repository/Page_AdvanceClaim  Command Form/button_Find' is clicked on
+
+2021-05-11 08:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Command Form/button_Find' is clicked on
+
+2021-05-11 08:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceClaim  Command Form/linkClaimRecord", ["claim":claimNumber])): Object: 'Object Repository/Page_AdvanceClaim  Command Form/linkClaimRecord' is clicked on
+
+2021-05-11 08:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Command Form/linkClaimRecord' is clicked on
+
+2021-05-11 08:57:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Claims/button_Validate  Complete")): Object: 'Object Repository/Page_AdvanceClaim  Claims/button_Validate  Complete' is clicked on
+
+2021-05-11 08:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/button_Validate  Complete' is clicked on
+
+2021-05-11 08:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Claims/button_OK")): Object: 'Object Repository/Page_AdvanceClaim  Claims/button_OK' is clicked on
+
+2021-05-11 08:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/button_OK' is clicked on
+
+2021-05-11 08:57:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_AdvanceClaim  Claims/inputPayer"), payer): Text 'SELF PAY' is set on object 'Object Repository/Page_AdvanceClaim  Claims/inputPayer'
+
+2021-05-11 08:57:37 - [MESSAGE][PASSED] - Text 'SELF PAY' is set on object 'Object Repository/Page_AdvanceClaim  Claims/inputPayer'
+
+2021-05-11 08:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceClaim  Claims/span_PayerSelection", ["payer":payer])): Object: 'Object Repository/Page_AdvanceClaim  Claims/span_PayerSelection' is clicked on
+
+2021-05-11 08:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/span_PayerSelection' is clicked on
+
+2021-05-11 08:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Claims/button_Save")): Object: 'Object Repository/Page_AdvanceClaim  Claims/button_Save' is clicked on
+
+2021-05-11 08:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/button_Save' is clicked on
+
+2021-05-11 08:57:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_AdvanceClaim  Claims/div_Claim is valid for submission"), 5): Object 'Object Repository/Page_AdvanceClaim  Claims/div_Claim is valid for submission' is present
+
+2021-05-11 08:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_AdvanceClaim  Claims/div_Claim is valid for submission' is present
+
+2021-05-11 08:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AdvanceClaim  Claims/button_OK")): Object: 'Object Repository/Page_AdvanceClaim  Claims/button_OK' is clicked on
+
+2021-05-11 08:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/button_OK' is clicked on
+
+2021-05-11 08:57:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 08:57:56 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 08:57:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC5_ValidateClaim' .
+
+2021-05-11 08:57:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC5_ValidateClaim' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_5.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC6_AddNewPatient" time="41.283" classname="Test Cases/Smoke Test/TC6_AddNewPatient" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:57:59 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC6_AddNewPatient: Test Cases/Smoke Test/TC6_AddNewPatient
+
+2021-05-11 08:57:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:57:59 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login - claim: Test Cases/Common Test Cases/Login - claim
+
+2021-05-11 08:57:59 - [TEST_STEP][PASSED] - openBrowser(G_acSiteURL): Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:57:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:58:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:58:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:58:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:58:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:58:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:58:07 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:58:08 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:58:08 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:58:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:58:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:58:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:58:14 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Patients"])): Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 08:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 08:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_AdvanceClaim  Claims/btnRegisterNew Patient")): Object: 'Object Repository/Page_AdvanceClaim  Claims/btnRegisterNew Patient' is clicked on
+
+2021-05-11 08:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AdvanceClaim  Claims/btnRegisterNew Patient' is clicked on
+
+2021-05-11 08:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"LastName"]), lastName): Text 'ALMAGUER' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:26 - [MESSAGE][PASSED] - Text 'ALMAGUER' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"FirstName"]), firstName): Text 'AARON' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:26 - [MESSAGE][PASSED] - Text 'AARON' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:26 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText("DOB", DOB): com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='04/09/1987'' successfully
+
+2021-05-11 08:58:27 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:27 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText("SSN", SSN): com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='111-11-1111'' successfully
+
+2021-05-11 08:58:27 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"StreetAddress"]), "13002 Napoli Valle"): Text '13002 Napoli Valle' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:27 - [MESSAGE][PASSED] - Text '13002 Napoli Valle' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"City"]), "San Antonio"): Text 'San Antonio' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:28 - [MESSAGE][PASSED] - Text 'San Antonio' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:28 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText("Zipcode", "78253"): com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='78253'' successfully
+
+2021-05-11 08:58:28 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.javaScriptExecutorInputText is PASSED
+
+2021-05-11 08:58:28 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("State", "SelectedState", stateCode): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:58:28 - [MESSAGE][PASSED] - Text 'TX' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:58:29 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:58:29 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"patientSave"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:30 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnYes")): Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 08:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 08:58:31 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"address-resultbtn"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:32 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("CommonObjects/btnField", ["id":"patientSave"]), STOP_ON_FAILURE): Object 'Object Repository/CommonObjects/btnField' is NOT clickable
+
+2021-05-11 08:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/CommonObjects/btnField' is NOT clickable
+
+2021-05-11 08:58:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 08:58:37 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 08:58:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC6_AddNewPatient' .
+
+2021-05-11 08:58:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC6_AddNewPatient' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_6.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC7_CreateNewValidClaim" time="92.962" classname="Test Cases/Smoke Test/TC7_CreateNewValidClaim" status="PASSED">
+         <system-out><![CDATA[2021-05-11 08:58:40 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC7_CreateNewValidClaim: Test Cases/Smoke Test/TC7_CreateNewValidClaim
+
+2021-05-11 08:58:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:58:40 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login - claim: Test Cases/Common Test Cases/Login - claim
+
+2021-05-11 08:58:40 - [TEST_STEP][PASSED] - openBrowser(G_acSiteURL): Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:58:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 08:58:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 08:58:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 08:58:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 08:58:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:58:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:58:48 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 08:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:58:49 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 08:58:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:58:49 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 08:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 08:58:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 08:58:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 08:58:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 08:58:55 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Patients"])): Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 08:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 08:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"LastName"]), lastName): Text 'ALMAGUER' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:57 - [MESSAGE][PASSED] - Text 'ALMAGUER' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:58:57 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"search"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:58:58 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:58:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:58:58 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.clickOnViewActionForLatestRecord(lastName): com.Common.WebUICustomKeywords.clickOnViewActionForLatestRecord is PASSED
+
+2021-05-11 08:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnViewAction' is clicked on
+
+2021-05-11 08:59:08 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.clickOnViewActionForLatestRecord is PASSED
+
+2021-05-11 08:59:08 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"aNew"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:08 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:59:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"PatientCareNumber"]), patientCare): Text '111111' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:13 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"IncidentNumber"]), incidentNumber): Text '111111' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:14 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:14 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Response Mode to Scene", "SelectedResponseMode", responseModeToScene): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:14 - [MESSAGE][PASSED] - Text 'Emergent (Immediate Response)' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:15 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:15 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("NEMSIS CMS Service Level", "SelectedServiceLevel", CMSserviceLevel): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:16 - [MESSAGE][PASSED] - Text 'BLS, Emergency' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:16 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:16 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Type of Service", "SelectedServiceType", typeOfService): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:17 - [MESSAGE][PASSED] - Text '911 Response (Scene)' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:18 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:18 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Incident/Patient Disposition", "SelectedDisposition", patientDisposition): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:19 - [MESSAGE][PASSED] - Text 'Patient Treated, Transported by this EMS Unit' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:19 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:19 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:59:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:59:19 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Destination Reason", "SelectedTransportReason", destinationReason): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:20 - [MESSAGE][PASSED] - Text 'Closest Facility' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:21 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:21 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Response Urgency", "SelectedResponseUrgency", reasonUrgency): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:22 - [MESSAGE][PASSED] - Text 'Immediate' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:23 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:23 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Leg of Trip", "SelectedTripLeg", legOfTrip): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:23 - [MESSAGE][PASSED] - Text 'Initial' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:24 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:24 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/chkboxInput", ["id":"UseScenePatientAddress"])): Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:24 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/chkboxInput", ["id":"UseDestinationPatientAddress"])): Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:26 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Scene Type", "SelectedSceneType", sceneType): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:27 - [MESSAGE][PASSED] - Text 'Assisted Living Facility' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:27 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:27 - [TEST_STEP][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("Destination Type", "SelectedDestinationType", destinationType): com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:28 - [MESSAGE][PASSED] - Text 'Assisted Living Facility' is set on object 'Object Repository/CommonObjects/drpdwnInputField'
+
+2021-05-11 08:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:29 - [MESSAGE][PASSED] - com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown is PASSED
+
+2021-05-11 08:59:29 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:59:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:59:29 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"StartOdoMeterReading"]), "1"): Text '1' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:30 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:30 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:59:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:59:30 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/txtInputField", ["name":"EndOdoMeterReading"])): Object: 'Object Repository/CommonObjects/txtInputField' is clicked on
+
+2021-05-11 08:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/txtInputField' is clicked on
+
+2021-05-11 08:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"EndOdoMeterReading"]), "10"): Text '10' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:32 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2021-05-11 08:59:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-05-11 08:59:32 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/chkboxInput", ["id":"IsEmergency"])): Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:33 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/chkboxInput", ["id":"IsEmergency"])): Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:34 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"tabstrip-procedure"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:35 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"btnOpenInsurance"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CommonObjects/btnField", ["id":"btnUseSelfPay"]), 5): Object 'Object Repository/CommonObjects/btnField' is visible
+
+2021-05-11 08:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/CommonObjects/btnField' is visible
+
+2021-05-11 08:59:40 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"btnUseSelfPay"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:40 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnYes")): Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 08:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 08:59:42 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnPopUpClose")): Object: 'Object Repository/CommonObjects/btnPopUpClose' is clicked on
+
+2021-05-11 08:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnPopUpClose' is clicked on
+
+2021-05-11 08:59:43 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"CreateICD9Code"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"DiagnosisCode_input"]), diagonosisInput): Text 'M48.42XA' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:45 - [MESSAGE][PASSED] - Text 'M48.42XA' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:45 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/drpdwnFirstValue", ["fieldId":"DiagnosisCode"])): Object: 'Object Repository/CommonObjects/drpdwnFirstValue' is clicked on
+
+2021-05-11 08:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnFirstValue' is clicked on
+
+2021-05-11 08:59:47 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnGridUpdate")): Object: 'Object Repository/CommonObjects/btnGridUpdate' is clicked on
+
+2021-05-11 08:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnGridUpdate' is clicked on
+
+2021-05-11 08:59:48 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"CreateNewProcedure"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("CommonObjects/txtInputField", ["name":"Procedure_input"]), procedureInput): Text 'BLS' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:50 - [MESSAGE][PASSED] - Text 'BLS' is set on object 'Object Repository/CommonObjects/txtInputField'
+
+2021-05-11 08:59:50 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/drpdwnSelectSearchValue", ["fieldId":"Procedure", "value":procedureValue])): Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/drpdwnSelectSearchValue' is clicked on
+
+2021-05-11 08:59:51 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnGridUpdate")): Object: 'Object Repository/CommonObjects/btnGridUpdate' is clicked on
+
+2021-05-11 08:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnGridUpdate' is clicked on
+
+2021-05-11 08:59:53 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/chkboxInput", ["id":"COBCheckedBox"])): Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/chkboxInput' is clicked on
+
+2021-05-11 08:59:54 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"btnValidateSave"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 08:59:54 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnYes")): Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:00:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 09:00:10 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 09:00:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC7_CreateNewValidClaim' .
+
+2021-05-11 09:00:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC7_CreateNewValidClaim' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_7.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/TC8_NEMSIS_FileImport" time="74.698" classname="Test Cases/Smoke Test/TC8_NEMSIS_FileImport" status="PASSED">
+         <system-out><![CDATA[2021-05-11 09:00:13 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/TC8_NEMSIS_FileImport: Test Cases/Smoke Test/TC8_NEMSIS_FileImport
+
+2021-05-11 09:00:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 09:00:13 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login - claim: Test Cases/Common Test Cases/Login - claim
+
+2021-05-11 09:00:13 - [TEST_STEP][PASSED] - openBrowser(G_acSiteURL): Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 09:00:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-05-11 09:00:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://acstaging.medapoint.com/Account/Logon'
+
+2021-05-11 09:00:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-05-11 09:00:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-05-11 09:00:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 09:00:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 09:00:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 09:00:21 - [MESSAGE][PASSED] - Text 'AutoTest' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2021-05-11 09:00:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 09:00:21 - [MESSAGE][PASSED] - Text 'Angus00##' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2021-05-11 09:00:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Organization"), Organization): Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 09:00:22 - [MESSAGE][PASSED] - Text 'MP001' is set on object 'Object Repository/Page_Login/txt_Organization'
+
+2021-05-11 09:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 09:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2021-05-11 09:00:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-05-11 09:00:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-05-11 09:00:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login - claim' successfully
+
+2021-05-11 09:00:28 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Nemsis"])): Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 09:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/linkHomePageTab' is clicked on
+
+2021-05-11 09:00:31 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnField", ["id":"ImportNemsis"])): Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 09:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnField' is clicked on
+
+2021-05-11 09:00:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("CommonObjects/btnField", ["id":"uploadedFiles"]), 5): Object 'Object Repository/CommonObjects/btnField' is clickable
+
+2021-05-11 09:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/CommonObjects/btnField' is clickable
+
+2021-05-11 09:00:45 - [TEST_STEP][PASSED] - userDir = System.getProperty("user.dir"): null
+
+2021-05-11 09:00:45 - [TEST_STEP][PASSED] - uploadFile(findTestObject("CommonObjects/btnField", ["id":"uploadedFiles"]), userDir + "/Data Files/2019-037286-elite-nemsisv340-202141071141355_7_2021 10_58_41 PM.xml"): File 'C:\Users\SSwain5\Documents\Others\medapoint/Data Files/2019-037286-elite-nemsisv340-202141071141355_7_2021 10_58_41 PM.xml' sent to object: 'Object Repository/CommonObjects/btnField'
+
+2021-05-11 09:00:45 - [MESSAGE][PASSED] - File 'C:\Users\SSwain5\Documents\Others\medapoint/Data Files/2019-037286-elite-nemsisv340-202141071141355_7_2021 10_58_41 PM.xml' sent to object: 'Object Repository/CommonObjects/btnField'
+
+2021-05-11 09:00:45 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnYes")): Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:01:15 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/tblFirstRow")): Object: 'Object Repository/CommonObjects/tblFirstRow' is clicked on
+
+2021-05-11 09:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/tblFirstRow' is clicked on
+
+2021-05-11 09:01:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CommonObjects/lblWindowTitle"), "NEMSIS MetaData Log"): Actual text and expected text of test object 'Object Repository/CommonObjects/lblWindowTitle' are matched.
+
+2021-05-11 09:01:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CommonObjects/lblWindowTitle' are matched.
+
+2021-05-11 09:01:23 - [TEST_STEP][PASSED] - click(findTestObject("CommonObjects/btnYes")): Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonObjects/btnYes' is clicked on
+
+2021-05-11 09:01:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-05-11 09:01:25 - [MESSAGE][PASSED] - Browser is closed
+
+2021-05-11 09:01:28 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Smoke Test/TC8_NEMSIS_FileImport' .
+
+2021-05-11 09:01:28 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Smoke Test/TC8_NEMSIS_FileImport' .
+[[ATTACHMENT|C:\\Users\\SSwain5\\Documents\\Others\\medapoint\\Reports\\20210511_085247\\Smoke Test Suite\\20210511_085247/videos\\test_8.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-11 08:53:00 - [TEST_SUITE][FAILED] - Smoke Test Suite: Test Cases/Smoke Test/TC3_CompleteExistingTrip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-05-11 08:53:00 - [TEST_SUITE][FAILED] - Smoke Test Suite: Test Cases/Smoke Test/TC3_CompleteExistingTrip FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC3_CompleteExistingTrip.run(TC3_CompleteExistingTrip:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1620703367797.run(TempTestSuite1620703367797.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_AdvanceDispatch  Command Form/i-expandTrip' located by 'By.xpath: //td[text()='ALMAGUER, AARON']/../td[1]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

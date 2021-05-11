@@ -1,0 +1,92 @@
+1
+00:00:00,261 --> 00:00:00,264
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,780 --> 00:00:00,781
+1. openBrowser(G_adSiteURL)
+
+3
+00:00:08,417 --> 00:00:08,418
+5. maximizeWindow()
+
+4
+00:00:08,562 --> 00:00:08,563
+9. delay(2)
+
+5
+00:00:10,573 --> 00:00:10,574
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:10,943 --> 00:00:10,944
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:11,302 --> 00:00:11,303
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:11,852 --> 00:00:11,853
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:17,725 --> 00:00:17,726
+29. delay(2)
+
+10
+00:00:19,739 --> 00:00:19,740
+5. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/a_New Call"))
+
+11
+00:00:23,625 --> 00:00:23,626
+9. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Patient_SelectedPatient_input"), patient)
+
+12
+00:00:24,368 --> 00:00:24,369
+13. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_patientByName", ["patient":patient]))
+
+13
+00:00:28,614 --> 00:00:28,615
+17. click(findTestObject("Page_AdvanceDispatch  Call Taking/input_ScenePick up Information"))
+
+14
+00:00:29,832 --> 00:00:29,833
+21. delay(1)
+
+15
+00:00:30,837 --> 00:00:30,838
+25. click(findTestObject("Page_AdvanceDispatch  Call Taking/input_DestinationDrop Off Information"))
+
+16
+00:00:31,500 --> 00:00:31,501
+29. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"), serviceRequested)
+
+17
+00:00:32,149 --> 00:00:32,150
+33. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Service Requested_SelectedServiceType_input"))
+
+18
+00:00:32,876 --> 00:00:32,877
+37. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Unit_SelectedUnit_input"), unit)
+
+19
+00:00:33,371 --> 00:00:33,372
+41. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_UnitByName", ["unit":unit]))
+
+20
+00:00:34,116 --> 00:00:34,116
+45. setText(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/input_Dispatch Complaint_SelectedComplaint_input"), dispatchComplaint)
+
+21
+00:00:34,778 --> 00:00:34,778
+49. click(findTestObject("Page_AdvanceDispatch  Call Taking/select_dispatchComplaintByName", ["complaint":dispatchComplaint]))
+
+22
+00:00:35,453 --> 00:00:35,454
+53. click(findTestObject("Object Repository/Page_AdvanceDispatch  Call Taking/button_Publish"))
+
+23
+00:00:35,984 --> 00:00:35,985
+57. closeBrowser()
+

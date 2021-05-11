@@ -1,0 +1,76 @@
+1
+00:00:00,166 --> 00:00:00,166
+1. callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,239 --> 00:00:00,240
+1. openBrowser(G_acSiteURL)
+
+3
+00:00:05,739 --> 00:00:05,740
+5. maximizeWindow()
+
+4
+00:00:05,884 --> 00:00:05,884
+9. delay(2)
+
+5
+00:00:07,889 --> 00:00:07,890
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:08,228 --> 00:00:08,228
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:08,583 --> 00:00:08,583
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:09,144 --> 00:00:09,144
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:13,633 --> 00:00:13,633
+29. delay(2)
+
+10
+00:00:15,638 --> 00:00:15,639
+5. click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Nemsis"]))
+
+11
+00:00:17,665 --> 00:00:17,665
+9. click(findTestObject("CommonObjects/btnField", ["id":"ImportNemsis"]))
+
+12
+00:00:30,336 --> 00:00:30,337
+13. waitForElementClickable(findTestObject("CommonObjects/btnField", ["id":"uploadedFiles"]), 5)
+
+13
+00:00:31,662 --> 00:00:31,662
+17. userDir = System.getProperty("user.dir")
+
+14
+00:00:31,665 --> 00:00:31,666
+21. uploadFile(findTestObject("CommonObjects/btnField", ["id":"uploadedFiles"]), userDir + "/Data Files/2019-037286-elite-nemsisv340-202141071141355_7_2021 10_58_41 PM.xml")
+
+15
+00:00:31,983 --> 00:00:31,984
+25. click(findTestObject("CommonObjects/btnYes"))
+
+16
+00:01:02,067 --> 00:01:02,067
+29. click(findTestObject("CommonObjects/tblFirstRow"))
+
+17
+00:01:02,582 --> 00:01:02,582
+33. verifyElementText(findTestObject("CommonObjects/lblWindowTitle"), "NEMSIS MetaData Log")
+
+18
+00:01:10,513 --> 00:01:10,514
+37. click(findTestObject("CommonObjects/btnYes"))
+
+19
+00:01:10,829 --> 00:01:10,829
+41. closeBrowser()
+

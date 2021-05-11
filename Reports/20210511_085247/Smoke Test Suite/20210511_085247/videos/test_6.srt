@@ -1,0 +1,96 @@
+1
+00:00:00,208 --> 00:00:00,209
+1. callTestCase(findTestCase("Common Test Cases/Login - claim"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,281 --> 00:00:00,282
+1. openBrowser(G_acSiteURL)
+
+3
+00:00:06,036 --> 00:00:06,037
+5. maximizeWindow()
+
+4
+00:00:06,178 --> 00:00:06,178
+9. delay(2)
+
+5
+00:00:08,185 --> 00:00:08,186
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:08,531 --> 00:00:08,532
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:08,910 --> 00:00:08,911
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:09,497 --> 00:00:09,498
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:12,890 --> 00:00:12,891
+29. delay(2)
+
+10
+00:00:14,899 --> 00:00:14,900
+5. click(findTestObject("CommonObjects/linkHomePageTab", ["tabName":"Patients"]))
+
+11
+00:00:22,533 --> 00:00:22,534
+9. click(findTestObject("Page_AdvanceClaim  Claims/btnRegisterNew Patient"))
+
+12
+00:00:26,000 --> 00:00:26,001
+13. setText(findTestObject("CommonObjects/txtInputField", ["name":"LastName"]), lastName)
+
+13
+00:00:27,097 --> 00:00:27,098
+17. setText(findTestObject("CommonObjects/txtInputField", ["name":"FirstName"]), firstName)
+
+14
+00:00:27,467 --> 00:00:27,468
+21. com.Common.WebUICustomKeywords.javaScriptExecutorInputText("DOB", DOB)
+
+15
+00:00:27,866 --> 00:00:27,866
+25. com.Common.WebUICustomKeywords.javaScriptExecutorInputText("SSN", SSN)
+
+16
+00:00:28,149 --> 00:00:28,149
+29. setText(findTestObject("CommonObjects/txtInputField", ["name":"StreetAddress"]), "13002 Napoli Valle")
+
+17
+00:00:28,539 --> 00:00:28,539
+33. setText(findTestObject("CommonObjects/txtInputField", ["name":"City"]), "San Antonio")
+
+18
+00:00:29,029 --> 00:00:29,030
+37. com.Common.WebUICustomKeywords.javaScriptExecutorInputText("Zipcode", "78253")
+
+19
+00:00:29,417 --> 00:00:29,417
+41. com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown("State", "SelectedState", stateCode)
+
+20
+00:00:30,536 --> 00:00:30,536
+45. click(findTestObject("CommonObjects/btnField", ["id":"patientSave"]))
+
+21
+00:00:31,067 --> 00:00:31,067
+49. click(findTestObject("CommonObjects/btnYes"))
+
+22
+00:00:32,128 --> 00:00:32,128
+53. click(findTestObject("CommonObjects/btnField", ["id":"address-resultbtn"]))
+
+23
+00:00:33,441 --> 00:00:33,441
+57. verifyElementNotClickable(findTestObject("CommonObjects/btnField", ["id":"patientSave"]), STOP_ON_FAILURE)
+
+24
+00:00:37,538 --> 00:00:37,538
+61. closeBrowser()
+

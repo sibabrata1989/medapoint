@@ -1,0 +1,116 @@
+1
+00:00:00,248 --> 00:00:00,249
+1. callTestCase(findTestCase("Common Test Cases/Login"), ["Password":findTestData("SmokeTestData").getValue(2, 1), "Username":findTestData("SmokeTestData").getValue(1, 1), "Organization":findTestData("SmokeTestData").getValue(3, 1), ... ], STOP_ON_FAILURE)
+
+2
+00:00:00,335 --> 00:00:00,336
+1. openBrowser(G_adSiteURL)
+
+3
+00:00:06,503 --> 00:00:06,504
+5. maximizeWindow()
+
+4
+00:00:06,643 --> 00:00:06,644
+9. delay(2)
+
+5
+00:00:08,650 --> 00:00:08,651
+13. setText(findTestObject("Page_Login/txt_UserName"), Username)
+
+6
+00:00:09,007 --> 00:00:09,008
+17. setText(findTestObject("Page_Login/txt_Password"), Password)
+
+7
+00:00:09,364 --> 00:00:09,365
+21. setText(findTestObject("Page_Login/txt_Organization"), Organization)
+
+8
+00:00:09,921 --> 00:00:09,922
+25. click(findTestObject("Page_Login/btn_Login"))
+
+9
+00:00:16,650 --> 00:00:16,651
+29. delay(2)
+
+10
+00:00:18,658 --> 00:00:18,659
+5. click(findTestObject("Object Repository/Page_AdvanceDispatch  Command Form/span_Emergency Call Taking"))
+
+11
+00:00:19,854 --> 00:00:19,854
+9. switchToWindowIndex(1)
+
+12
+00:00:19,886 --> 00:00:19,887
+13. setText(findTestObject("Page_AdvanceDispatch/input_Caller Name_CallerName"), patient)
+
+13
+00:00:24,081 --> 00:00:24,081
+17. click(findTestObject("Page_AdvanceDispatch/input_Call Back Number_CallbackNumber"))
+
+14
+00:00:24,634 --> 00:00:24,634
+21. com.Common.WebUICustomKeywords.javaScriptExecutorInputText("CallbackNumber", "2169604444")
+
+15
+00:00:25,071 --> 00:00:25,072
+25. click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Dispatch Complaint_k-icon k-i-arrow-60-down"))
+
+16
+00:00:25,418 --> 00:00:25,419
+29. click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Abdominal PainProblems"))
+
+17
+00:00:25,941 --> 00:00:25,941
+33. click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Service Requested_k-icon k-i-arrow-60-down"))
+
+18
+00:00:26,482 --> 00:00:26,483
+37. click(findTestObject("Object Repository/Page_AdvanceDispatch/li_911 Response (Scene)"))
+
+19
+00:00:27,006 --> 00:00:27,006
+41. click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Dispatch Priority_k-select"))
+
+20
+00:00:28,052 --> 00:00:28,053
+45. click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Priority 2 (Emergent)"))
+
+21
+00:00:28,597 --> 00:00:28,598
+49. click(findTestObject("Object Repository/Page_AdvanceDispatch/span_Transport Method_k-icon k-i-arrow-60-down"))
+
+22
+00:00:29,131 --> 00:00:29,131
+53. click(findTestObject("Object Repository/Page_AdvanceDispatch/li_Ground-Ambulance"))
+
+23
+00:00:29,645 --> 00:00:29,646
+57. click(findTestObject("Object Repository/Page_AdvanceDispatch/input_Caller Ref _CallerReferenceNumber"))
+
+24
+00:00:29,970 --> 00:00:29,971
+61. setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_Street Address_SceneStreetAddress"), "1300 napoli valie")
+
+25
+00:00:30,534 --> 00:00:30,535
+65. setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_City_SceneCity"), "san antonio")
+
+26
+00:00:30,912 --> 00:00:30,913
+69. setText(findTestObject("Object Repository/Page_AdvanceDispatch/input_State_SceneStateID_input"), "78253")
+
+27
+00:00:31,490 --> 00:00:31,491
+73. click(findTestObject("Object Repository/Page_AdvanceDispatch/button_Publish And Continue"))
+
+28
+00:00:43,820 --> 00:00:43,820
+77. waitForElementVisible(findTestObject("Page_AdvanceDispatch/lblcallReferenceNumber"), 10)
+
+29
+00:01:04,151 --> 00:01:04,151
+81. closeBrowser()
+
