@@ -30,12 +30,8 @@ WebUI.setText(findTestObject('Page_AdvanceDispatch/input_Caller Name_CallerName'
 
 WebUI.click(findTestObject('Page_AdvanceDispatch/input_Call Back Number_CallbackNumber'))
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Page_AdvanceDispatch/input_Call Back Number_CallbackNumber'), 
-    30)
+CustomKeywords.'com.Common.WebUICustomKeywords.javaScriptExecutorInputText'('CallbackNumber', '2169604444')
 
-WebUI.executeJavaScript('arguments[0].value=\'2169604444\'', Arrays.asList(element))
-
-//WebUI.sendKeys(findTestObject('Page_AdvanceDispatch /input_Call Back Number_CallbackNumber'), '2169604444')
 WebUI.click(findTestObject('Object Repository/Page_AdvanceDispatch/span_Dispatch Complaint_k-icon k-i-arrow-60-down'))
 
 WebUI.click(findTestObject('Object Repository/Page_AdvanceDispatch/li_Abdominal PainProblems'))

@@ -33,40 +33,40 @@ WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'aNew']))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'PatientCareNumber']), '111111')
+WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'PatientCareNumber']), patientCare)
 
-WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'IncidentNumber']), '111111')
+WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'IncidentNumber']), incidentNumber)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Response Mode to Scene', 'SelectedResponseMode', 
-    'Emergent (Immediate Response)')
+    responseModeToScene)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('NEMSIS CMS Service Level', 'SelectedServiceLevel', 
-    'BLS, Emergency')
+    CMSserviceLevel)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Type of Service', 'SelectedServiceType', 
-    '911 Response (Scene)')
+    typeOfService)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Incident/Patient Disposition', 'SelectedDisposition', 
-    'Patient Treated, Transported by this EMS Unit')
+    patientDisposition)
 
 WebUI.waitForPageLoad(5)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Destination Reason', 'SelectedTransportReason', 
-    'Closest Facility')
+    destinationReason)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Response Urgency', 'SelectedResponseUrgency', 
-    'Immediate')
+    reasonUrgency)
 
-CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Leg of Trip', 'SelectedTripLeg', 'Initial')
+CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Leg of Trip', 'SelectedTripLeg', legOfTrip)
 
 WebUI.click(findTestObject('CommonObjects/chkboxInput', [('id') : 'UseScenePatientAddress']))
 
 WebUI.click(findTestObject('CommonObjects/chkboxInput', [('id') : 'UseDestinationPatientAddress']))
 
-CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Scene Type', 'SelectedSceneType', 'Assisted Living Facility')
+CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Scene Type', 'SelectedSceneType', sceneType)
 
 CustomKeywords.'com.Common.WebUICustomKeywords.selectValueFromInputTypeDropDown'('Destination Type', 'SelectedDestinationType', 
-    'Assisted Living Facility')
+    destinationType)
 
 WebUI.waitForPageLoad(5)
 
@@ -98,7 +98,7 @@ WebUI.click(findTestObject('CommonObjects/btnPopUpClose'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'CreateICD9Code']))
 
-WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'DiagnosisCode_input']), 'M48.42XA')
+WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'DiagnosisCode_input']), diagonosisInput)
 
 WebUI.click(findTestObject('CommonObjects/drpdwnFirstValue', [('fieldId') : 'DiagnosisCode']))
 
@@ -106,9 +106,9 @@ WebUI.click(findTestObject('CommonObjects/btnGridUpdate'))
 
 WebUI.click(findTestObject('CommonObjects/btnField', [('id') : 'CreateNewProcedure']))
 
-WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'Procedure_input']), 'BLS')
+WebUI.setText(findTestObject('CommonObjects/txtInputField', [('name') : 'Procedure_input']), procedureInput)
 
-WebUI.click(findTestObject('CommonObjects/drpdwnSelectSearchValue', [('fieldId') : 'Procedure', ('value') : 'BLS NON-EMERGENCY TRANSPORT']))
+WebUI.click(findTestObject('CommonObjects/drpdwnSelectSearchValue', [('fieldId') : 'Procedure', ('value') : procedureValue]))
 
 WebUI.click(findTestObject('CommonObjects/btnGridUpdate'))
 
